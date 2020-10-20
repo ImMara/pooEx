@@ -1,10 +1,13 @@
 <?php
+
     namespace App;
 
-    class Article{
+class Article{
+
+        use HTML\BootstrapCards;
 
         public function getURL(){
-            return 'index.php?action=article&id='.$this->id;
+            return 'index.php?action=food&id='.$this->id_food;
         }
 
         public function getExtrait(){
@@ -14,15 +17,9 @@
             }else{
                 $html = "<div>".$texte."</div>";
             }
-
             return $html;
-
         }
 
-
-
     }
-
-
 
 ?>

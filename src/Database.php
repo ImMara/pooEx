@@ -54,15 +54,7 @@
             return $datas;
         }
 
-        /* fin de la neutralité de la classe */
-
-        public function addPost($title,$content){
-            $req = $this->getBDD()->prepare("INSERT INTO posts(title,content,creation_date) VALUES(?,?,NOW())");
-            $req->execute([$title,$content]);
-            $req->closeCursor();
-        }
-
-
+        
 
     }
 
