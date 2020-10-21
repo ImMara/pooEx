@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa11df9a-9b0f-41ae-97f8-9813a38644fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bdd/restau.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Autoloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/HTML/BootstrapCards.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/HTML/BootstrapForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/HTML/Form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/Rectangle1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/chef-cooking-salad-with-mushrooms1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/chef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/cook-tossing-vegetables-frying-pan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/cozy-restaurant-with-people-and-waiter1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/img/pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/assets/javascript/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/recommandations.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jC84M0VzmB5zInwyLdSxHRZkic" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PHP\POO\pooEx\MVC\view\frontend" />
+      <recent name="D:\PHP\POO\pooEx\MVC\model" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa11df9a-9b0f-41ae-97f8-9813a38644fe" name="Default Changelist" comment="" />
+      <created>1603296521221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603296521221</updated>
+      <workItem from="1603296524370" duration="7350000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="641" y="272" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603298879240">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="641" y="272" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1603298879240" />
+    <state x="821" y="256" key="NewPhpClassDialog" timestamp="1603301106206">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="821" y="256" key="NewPhpClassDialog/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1603301106206" />
+    <state x="794" y="479" key="NewPhpFileDialog" timestamp="1603302700064">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="794" y="479" key="NewPhpFileDialog/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1603302700064" />
+    <state x="747" y="249" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603299823349">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="747" y="249" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1603299823349" />
+  </component>
+</project>
