@@ -1,30 +1,19 @@
 <?php
-    namespace App;
-    require "src/Autoloader.php";
-    Autoloader::register();
-    
-    $db = new Database('restau');
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="template/assets/css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <?php
-    // template
-        include ('template/header.php');
-        include ('template/recommandations.php');
-        include ('template/menu.php');
-    // router ->here 
-    ?>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="template/assets/javascript/main.js"></script>
-</body>
-</html>
+    namespace  App;
+    require ('controller/HomeController.php');
+
+    include 'view/frontend/template.php';
+
+    try{
+        if(isset($_GET['action'])){
+
+        }else{
+            HomeController::getRecommandation();
+            HomeController::getMenu();
+        }
+
+    }catch (\Exception $e){
+        $errorMessage = $e->getMessage();
+        require('view/frontend/errorView.php');
+    }
+
