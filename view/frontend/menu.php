@@ -1,4 +1,4 @@
-<?php ob_start(); ?>
+
 <div id="menu" class="pb-5 p-5 bg-light d-flex justify-content-center">
     <div class="menuBox ml-5">
         <h1 class="mb-5 pb-5">Entrée</h1>
@@ -33,5 +33,3 @@
         <?php endforeach; ?>
     </div>
 </div>
-<?php $menu = ob_get_clean() ?>
-<?php require('content.php') ?>

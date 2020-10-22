@@ -1,4 +1,4 @@
-<?php ob_start(); ?>
+
 <div class="bg-dark w-100 h-100 text-white d-flex justify-content-center align-items-center">
     <div class="review-logo"></div>
     <div class="reviewContainer">
@@ -16,5 +16,5 @@
     </div>
     <div class="review-logo"></div>
 </div>
-<?php $review = ob_get_clean() ?>
-<?php require('content.php') ?>
+<?php $content = ob_get_clean();?>
+<?php require ('template.php');?>
