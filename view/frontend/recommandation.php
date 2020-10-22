@@ -13,6 +13,6 @@
         </div>
     </div>
 </div>
-<?php $content = ob_get_clean() ?>
+<?php $recomandations = ob_get_clean() ?>
 <?php require('content.php') ?>
 

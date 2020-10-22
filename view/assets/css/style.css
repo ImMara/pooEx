@@ -52,3 +52,30 @@ nav{
     width: 320px;
     text-align: center;
 }
+.reviewContainer{
+    height: 730px;
+}
+.userReview{
+    width: 886px;
+    height: 180px;
+    border: 1px solid white;
+}
+.userReview p{
+    width: 410px;
+}
+.review-logo{
+    width: 624px;
+    height: 730px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.review-logo:nth-child(1){
+    background-image: url("../img/logoReview1.svg");
+}
+.review-logo:nth-child(3){
+    background-image: url("../img/logoReview2.svg");
+    background-position: right;
+}
+footer{
+    height: 380px;
+}

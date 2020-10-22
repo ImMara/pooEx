@@ -20,4 +20,11 @@ class HomeController
         $dessert = $menu->getMenuDessert();
         require ('view/frontend/menu.php');
     }
+
+    public static function getReview()
+    {
+        $rev = new ReviewManager();
+        $review = $rev->getReview();
+        require ('view/frontend/review.php');
+    }
 }

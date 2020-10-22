@@ -33,5 +33,5 @@
         <?php endforeach; ?>
     </div>
 </div>
-<?php $content = ob_get_clean() ?>
+<?php $menu = ob_get_clean() ?>
 <?php require('content.php') ?>
